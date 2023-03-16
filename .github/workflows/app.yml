@@ -2,6 +2,8 @@ name: Release express example app
 
 on:
   push:
+    paths:
+      - express-app/**
     branches:
       - main
 
